@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.platform      = :ios, "8.0"
   s.source        = { :git => "https://github.com/ZSMSimon/ZSMEmoji.git", :tag => s.version.to_s }
   s.requires_arc  = true
-  s.source_files  = "ZSMEmoji/*.{h,m}"
+  s.source_files  = "NSString+ZSMEmoji/*.{h,m}"
 end
